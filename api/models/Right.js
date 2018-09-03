@@ -25,7 +25,8 @@ module.exports = {
     //  ╔═╗╔═╗╔═╗╔═╗╔═╗╦╔═╗╔╦╗╦╔═╗╔╗╔╔═╗
     //  ╠═╣╚═╗╚═╗║ ║║  ║╠═╣ ║ ║║ ║║║║╚═╗
     //  ╩ ╩╚═╝╚═╝╚═╝╚═╝╩╩ ╩ ╩ ╩╚═╝╝╚╝╚═╝
-    roles: { collection: 'role', via: 'right', through: 'roleright' }
+    roles: { collection: 'role', via: 'right', through: 'roleright' },
+    users: { collection: 'user', via: 'right', through: 'userright' }
   },
 
 };

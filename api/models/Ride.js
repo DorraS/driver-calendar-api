@@ -23,8 +23,8 @@ module.exports = {
       description: ' detaillés la course'
     },
 
-    durention: {
-      type: 'number',
+    estimate : {
+      type: 'json',
       description: 'temps dela course en s'
     },
 
@@ -45,13 +45,13 @@ module.exports = {
     departureAdress: {
       // model: 'address'
       required: true
-      , type: 'string'
+      , type: 'json'
     },
 
     arrivalAddress: {
       // model: 'address'
       required: true
-      , type: 'string'
+      , type: 'json'
     },
 
     driver: {
@@ -68,7 +68,7 @@ module.exports = {
       model: 'status',
     },
 
-    typeRide: {
+    rideType: {
       model: 'ridetype',
     },
 

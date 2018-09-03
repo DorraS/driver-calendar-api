@@ -26,26 +26,29 @@ module.exports = {
     email: {
       type: 'string',
       isEmail: true,
+      allowNull:true,
     },
     password: {
       type: 'string',
+      allowNull:true,
     },
     phoneNumber: {
-      type: 'string'
+      type: 'string',
+      allowNull:true,
     },
     socialSecurityNumber: {
       type: 'number',
+      allowNull:true,
+    },
+    address: {
+      type: 'json',
     },
     
     //  ╔═╗╔═╗╔═╗╔═╗╔═╗╦╔═╗╔╦╗╦╔═╗╔╗╔╔═╗
     //  ╠═╣╚═╗╚═╗║ ║║  ║╠═╣ ║ ║║ ║║║║╚═╗
     //  ╩ ╩╚═╝╚═╝╚═╝╚═╝╩╩ ╩ ╩ ╩╚═╝╝╚╝╚═╝
-
-    address: {
-      model: 'address'
-    },
-
-    roles: {collection: 'role', via: 'user',through: 'userrole' }
+    roles: {collection: 'role', via: 'user',through: 'userrole' },
+    rights: {collection: 'right', via: 'user',through: 'userright' }
     
   },
 
