@@ -6,9 +6,10 @@
  */
 
 module.exports = {
-
+  tableName:'ride_type',
   attributes: {
-
+    
+    
     code: { type: 'string', required: true, unique: true },
     label: { type: 'string', required: true },
 

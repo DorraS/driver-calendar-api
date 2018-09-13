@@ -6,13 +6,14 @@
  */
 
 module.exports = {
-
+  tableName: 'user_has_rights',
   attributes: {
+   
     //  ╔═╗╔═╗╔═╗╔═╗╔═╗╦╔═╗╔╦╗╦╔═╗╔╗╔╔═╗
     //  ╠═╣╚═╗╚═╗║ ║║  ║╠═╣ ║ ║║ ║║║║╚═╗
     //  ╩ ╩╚═╝╚═╝╚═╝╚═╝╩╩ ╩ ╩ ╩╚═╝╝╚╝╚═╝
-    right: {model:'right', required:true},
-    user: {model:'user', required:true},
+    right: {model:'right', required:true, columnName:'right_id'},
+    user: {model:'user', required:true, columnName:'user_id'},
 
     createdAt: false,
     updatedAt: false,

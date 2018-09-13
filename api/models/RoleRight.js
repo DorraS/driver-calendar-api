@@ -7,12 +7,16 @@
 
 module.exports = {
 
+  tableName: 'role_has_rights',
   attributes: {
+
+    
+  
     //  ╔═╗╔═╗╔═╗╔═╗╔═╗╦╔═╗╔╦╗╦╔═╗╔╗╔╔═╗
     //  ╠═╣╚═╗╚═╗║ ║║  ║╠═╣ ║ ║║ ║║║║╚═╗
     //  ╩ ╩╚═╝╚═╝╚═╝╚═╝╩╩ ╩ ╩ ╩╚═╝╝╚╝╚═╝
-    role : {model: 'role' , required: true},
-    right: {model: 'right', required: true},
+    role : {model: 'role' , required: true, columnName: 'role_id'},
+    right: {model: 'right', required: true, columnName: 'right_id'},
     
     createdAt: false,
     updatedAt: false,

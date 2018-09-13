@@ -17,20 +17,14 @@ passport.use(new LocalStrategy({
     passportField: 'password'
 }, function (username, password, cb) {
 
-    sails.log('loggin information',{user: username, password: password});
-    User.findOne({ email: username }, function (err, user) {
+    sails.log('loggin information', { user: username, password: password });
+    User.findOne({ email: username }).populate('roles').populate('rights').then(function (user, err) {
+
         if (err) return cb(err);
         if (!user) return cb(null, false, { message: 'Username not found' });
         bcrypt.compare(password, user.password, function (err, res) {
             if (!res) return cb(null, false, { message: 'Invalid Password' });
-
-            let userDetails = {
-                email: user.email,
-                username: user.username,
-                id: user.id
-            };
-
             return cb(null, user, { message: 'Login Succesful' });
-        });
+        })
     });
 }));

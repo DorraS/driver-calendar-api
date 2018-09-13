@@ -8,14 +8,27 @@
 module.exports = {
 
   attributes: {
-
+    
     //  ╔═╗╦═╗╦╔╦╗╦╔╦╗╦╦  ╦╔═╗╔═╗
     //  ╠═╝╠╦╝║║║║║ ║ ║╚╗╔╝║╣ ╚═╗
     //  ╩  ╩╚═╩╩ ╩╩ ╩ ╩ ╚╝ ╚═╝╚═╝
+    departureAdress: {
+      required: true
+      , type: 'json'
+      , columnName:'departure_adress'
+    },
+
+    arrivalAddress: {
+      required: true
+      , type: 'json'
+      , columnName:'arrival_address'
+    },
+
     departureDate: {
       type: 'string',
       columnType: 'datetime',
       required: true,
+      columnName: 'departure_date'
     },
 
     comment: {
@@ -25,34 +38,16 @@ module.exports = {
 
     estimate : {
       type: 'json',
-      description: 'temps dela course en s'
+      description: `contient l\'estimation  de durée et la distance 
+          calculer par google ainsi le calcul de de prix qui sera calculer coté backend`
     },
 
-    distance: {
-      type: 'number',
-      description: 'distance de la course en m',
-    },
-
-    estimatePrice: {
-      type: 'number',
-      description: 'estimation du prix de la course en euro ou autre divise selon le type de la course'
-    },
 
     //  ╔═╗╔═╗╔═╗╔═╗╔═╗╦╔═╗╔╦╗╦╔═╗╔╗╔╔═╗
     //  ╠═╣╚═╗╚═╗║ ║║  ║╠═╣ ║ ║║ ║║║║╚═╗
     //  ╩ ╩╚═╝╚═╝╚═╝╚═╝╩╩ ╩ ╩ ╩╚═╝╝╚╝╚═╝
 
-    departureAdress: {
-      // model: 'address'
-      required: true
-      , type: 'json'
-    },
-
-    arrivalAddress: {
-      // model: 'address'
-      required: true
-      , type: 'json'
-    },
+   
 
     driver: {
       model: 'user',
@@ -66,10 +61,12 @@ module.exports = {
 
     status: {
       model: 'status',
+      columnName:'status_id',
     },
 
     rideType: {
       model: 'ridetype',
+      columnName:'ride_type_id'
     },
 
   },

@@ -15,9 +15,10 @@ module.exports = {
             
             if ((err) || (!user)) {
 
-                sails.log(err);
+                sails.log('error',err);
                 return res.status(401).json({
-                    error: info.message,
+
+                    error: info && info.message,
                 });
             }
 

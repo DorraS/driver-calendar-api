@@ -6,13 +6,15 @@
  */
 
 module.exports = {
-
+ // db config
+ tableName: 'user_has_roles',
   attributes: {
+    
     //  ╔═╗╔═╗╔═╗╔═╗╔═╗╦╔═╗╔╦╗╦╔═╗╔╗╔╔═╗
     //  ╠═╣╚═╗╚═╗║ ║║  ║╠═╣ ║ ║║ ║║║║╚═╗
     //  ╩ ╩╚═╝╚═╝╚═╝╚═╝╩╩ ╩ ╩ ╩╚═╝╝╚╝╚═╝
-    role: {model:'role', required:true},
-    user: {model:'user', required:true},
+    role: {model:'role', required:true, columnName: 'role_id'},
+    user: {model:'user', required:true, columnName: 'user_id'},
 
     createdAt: false,
     updatedAt: false,

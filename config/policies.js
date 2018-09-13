@@ -17,11 +17,14 @@ module.exports.policies = {
   *                                                                          *
   ***************************************************************************/
 
-  //'*': 'authenticated',
+  '*': ['authenticated'
+          //,'hasRight'
+        ],
+  
   AuthController: {
     'login': true,
-  }
-  // 'login': true,
-  // 'logout':true,
+    'logout':true
+  },
+  
 
 };
