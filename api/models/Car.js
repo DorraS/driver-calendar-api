@@ -20,7 +20,7 @@ module.exports = {
     //  ╔═╗╔═╗╔═╗╔═╗╔═╗╦╔═╗╔╦╗╦╔═╗╔╗╔╔═╗
     //  ╠═╣╚═╗╚═╗║ ║║  ║╠═╣ ║ ║║ ║║║║╚═╗
     //  ╩ ╩╚═╝╚═╝╚═╝╚═╝╩╩ ╩ ╩ ╩╚═╝╝╚╝╚═╝
-    driver: { model: 'user', description: 'le cheffeur qui s\'occupe de la voiture' },
+    driver: { model: 'user', description: 'le chauffeur qui s\'occupe de la voiture' },
 
   },
 

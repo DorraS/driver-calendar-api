@@ -45,6 +45,10 @@ module.exports = {
     address: {
       type: 'json',
     },
+    color: {
+      type: 'string',
+      defaultsTo: '#ffffff',
+    },
 
     //  ╔═╗╔═╗╔═╗╔═╗╔═╗╦╔═╗╔╦╗╦╔═╗╔╗╔╔═╗
     //  ╠═╣╚═╗╚═╗║ ║║  ║╠═╣ ║ ║║ ║║║║╚═╗

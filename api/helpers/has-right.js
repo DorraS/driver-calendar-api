@@ -38,7 +38,7 @@ module.exports = {
 
   fn: async function (inputs, exits) {
      
-    // recuparation des droits de l'utilisateur
+    // recovery of user rights
     userRights = await User.getRights(inputs.userId);
 
     if(!userRights){
@@ -46,7 +46,7 @@ module.exports = {
     }
     
 
-    // recupértion du fonctionalité appelé 
+    // recuperation on called functionality
     let endPoint = inputs.path.substr(inputs.path.indexOf('/')+1, inputs.path.lastIndexOf('/'));
     
 
