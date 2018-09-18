@@ -1,0 +1,4 @@
+{"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
+{"id":20,"role_id":6,"user_id":15,"_id":20}
+{"id":21,"role_id":5,"user_id":14,"_id":21}
+{"id":22,"role_id":6,"user_id":14,"_id":22}

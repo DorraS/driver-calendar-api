@@ -1,0 +1,4 @@
+{"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
+{"$$indexCreated":{"fieldName":"code","unique":true,"sparse":false}}
+{"id":1,"code":"MEDICAL_RIDE","label":"MEDICAL","_id":1}
+{"id":2,"code":"NORMAL_RIDE","label":"NORMAL","_id":2}

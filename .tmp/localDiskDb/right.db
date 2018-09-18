@@ -1,0 +1,8 @@
+{"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
+{"$$indexCreated":{"fieldName":"code","unique":true,"sparse":false}}
+{"$$indexCreated":{"fieldName":"label","unique":true,"sparse":false}}
+{"id":5,"code":"ALL_ACCESS","label":"Have all access","_id":5}
+{"id":6,"code":"CONSULTATION","label":"Consultation","_id":6}
+{"id":8,"code":"MODIF_CALENDAR","label":"MODIFY CALENDAR","_id":8}
+{"id":9,"code":"CONSUL_CALENDAR","label":"CONSULTATION CALENDAR","_id":9}
+{"id":10,"code":"CREAT_USER","label":"CREATE USER","_id":10}
