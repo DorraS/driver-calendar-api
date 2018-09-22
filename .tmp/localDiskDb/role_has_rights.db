@@ -1,1 +1,13 @@
 {"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
+{"id":1,"role_id":1,"right_id":1,"_id":1}
+{"id":2,"role_id":1,"right_id":2,"_id":2}
+{"id":3,"role_id":1,"right_id":4,"_id":3}
+{"id":4,"role_id":1,"right_id":5,"_id":4}
+{"id":5,"role_id":1,"right_id":6,"_id":5}
+{"id":6,"role_id":1,"right_id":7,"_id":6}
+{"id":7,"role_id":1,"right_id":8,"_id":7}
+{"id":8,"role_id":2,"right_id":9,"_id":8}
+{"id":9,"role_id":3,"right_id":8,"_id":9}
+{"id":10,"role_id":3,"right_id":7,"_id":10}
+{"id":11,"role_id":3,"right_id":1,"_id":11}
+{"id":12,"role_id":3,"right_id":4,"_id":12}

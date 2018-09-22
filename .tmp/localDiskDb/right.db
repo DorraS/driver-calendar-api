@@ -1,8 +1,12 @@
 {"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
 {"$$indexCreated":{"fieldName":"code","unique":true,"sparse":false}}
 {"$$indexCreated":{"fieldName":"label","unique":true,"sparse":false}}
-{"id":5,"code":"ALL_ACCESS","label":"Have all access","_id":5}
-{"id":6,"code":"CONSULTATION","label":"Consultation","_id":6}
-{"id":8,"code":"MODIF_CALENDAR","label":"MODIFY CALENDAR","_id":8}
-{"id":9,"code":"CONSUL_CALENDAR","label":"CONSULTATION CALENDAR","_id":9}
-{"id":10,"code":"CREAT_USER","label":"CREATE USER","_id":10}
+{"id":1,"code":"CONSULT_USER","label":"Consult user details","_id":1}
+{"id":2,"code":"CREATE_USER","label":"Create user","_id":2}
+{"id":3,"code":"DELETE_USER","label":"Delete user","_id":3}
+{"id":4,"code":"EDIT_USER","label":"Edit user","_id":4}
+{"id":5,"code":"CREATE_RIDE","label":"create ride","_id":5}
+{"id":6,"code":"DELETE_RIDE","label":"Delete ride","_id":6}
+{"id":7,"code":"EDIT_RIDE","label":"Edit ride","_id":7}
+{"id":8,"code":"CONSULT_RIDE","label":"Consult ride details","_id":8}
+{"id":9,"code":"ALL_ACCESS","label":"All access","_id":9}

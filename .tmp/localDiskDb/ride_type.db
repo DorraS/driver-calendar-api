@@ -1,4 +1,2 @@
 {"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
 {"$$indexCreated":{"fieldName":"code","unique":true,"sparse":false}}
-{"id":1,"code":"Medical","label":"Course medical","_id":1}
-{"id":2,"code":"Normal","label":"Course Normal","_id":2}

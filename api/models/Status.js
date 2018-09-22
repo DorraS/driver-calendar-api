@@ -9,8 +9,9 @@ module.exports = {
 
   attributes: {
 
-    code:  {type:'string' , required: true, unique: true},
-    lable: {type: 'string', },
+    code :  {type:'string' , required: true, unique: true},
+    label: {type: 'string', },
+    type : {type:'string'},
 
     //  ╔═╗╦═╗╦╔╦╗╦╔╦╗╦╦  ╦╔═╗╔═╗
     //  ╠═╝╠╦╝║║║║║ ║ ║╚╗╔╝║╣ ╚═╗

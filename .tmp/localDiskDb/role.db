@@ -1,6 +1,6 @@
 {"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
 {"$$indexCreated":{"fieldName":"code","unique":true,"sparse":false}}
-{"id":4,"code":"ROLE_ADMIN","label":"Administrateur","_id":4}
-{"id":5,"code":"ROLE_SUPER_ADMIN","label":"SUPER ADMINISTRATEUR","_id":5}
-{"id":6,"code":"DRIVER","label":"Driver","_id":6}
-{"id":7,"code":"CLIENT","label":"Client","_id":7}
+{"id":1,"code":"ROLE_ADMIN","label":"Administrateur","_id":1}
+{"id":2,"code":"ROLE_SUPER_ADMIN","label":"SUPER ADMINISTRATEUR","_id":2}
+{"id":3,"code":"DRIVER","label":"Driver","_id":3}
+{"id":4,"code":"CLIENT","label":"Client","_id":4}

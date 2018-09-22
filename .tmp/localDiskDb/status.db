@@ -1,2 +1,9 @@
 {"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
 {"$$indexCreated":{"fieldName":"code","unique":true,"sparse":false}}
+{"id":1,"code":"ST_DRIVER_AVAILABLE","label":"Available","type":"driver","_id":1}
+{"id":2,"code":"ST_DRIVER_IN_RIDE","label":"In Ride","type":"driver","_id":2}
+{"id":3,"code":"ST_DRIVER_OFF","label":"OFF","type":"driver","_id":3}
+{"id":4,"code":"ST_RIDE_CREDATE","label":"Created","type":"ride","_id":4}
+{"id":5,"code":"ST_RIDE_VALIDATED","label":"Validated","type":"ride","_id":5}
+{"id":6,"code":"ST_RIDE_IN_PROGRESS","label":"In Progress","type":"ride","_id":6}
+{"id":7,"code":"ST_RIDE_PENDING","label":"Pending","type":"ride","_id":7}
