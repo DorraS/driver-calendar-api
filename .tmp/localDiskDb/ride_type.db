@@ -1,9 +1,5 @@
 {"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
 {"$$indexCreated":{"fieldName":"code","unique":true,"sparse":false}}
-{"code":"RIDE_MEDICAL","label":"MEDICALE","id":1,"_id":1}
-{"code":"RIDE_NORMAL","label":"NORMAL","id":2,"_id":2}
-{"$$deleted":true,"_id":2}
-{"code":"RIDE_NORMAL_ALL_SIMPLE","label":"NORMAL - Aller Simple","id":3,"_id":3}
-{"code":"RIDE_NORMAL_ROUND_TRIP","label":"NORMAL - Aller & Retour","id":4,"_id":4}
-{"$$deleted":true,"_id":3}
-{"code":"RIDE_NORMAL_SINGLE","label":"NORMAL - Aller Simple","id":3,"_id":3}
+{"id":1,"code":"RIDE_MEDICAL","label":"MEDICALE","_id":1}
+{"id":3,"code":"RIDE_NORMAL_SINGLE","label":"NORMAL - Aller Simple","_id":3}
+{"id":4,"code":"RIDE_NORMAL_ROUND_TRIP","label":"NORMAL - Aller & Retour","_id":4}
